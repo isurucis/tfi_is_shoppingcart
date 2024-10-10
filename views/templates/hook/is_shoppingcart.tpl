@@ -61,7 +61,7 @@
             <span class="value">{$cart.totals.total.value}</span>
           </div>
           <div class="mt-3">
-            <button type="button" id="clear--float-cart-btn" class="btn btn-danger">
+            <button type="button" id="clear-float-cart-btn" class="btn btn-danger">
               Clear All
             </button>   
           </div>
