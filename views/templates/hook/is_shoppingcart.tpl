@@ -60,7 +60,11 @@
             <span class="label">{$cart.totals.total.label}</span>
             <span class="value">{$cart.totals.total.value}</span>
           </div>
-
+          <div class="mt-3">
+            <button type="button" id="clear--float-cart-btn" class="btn btn-danger">
+              Clear All
+            </button>   
+          </div>
           <div class="mt-3">
             <a href="{$cart_url}" class="btn btn-sm btn-primary btn-block dropdown-close">
               {l s='Proceed to checkout' d='Shop.Theme.Actions'}

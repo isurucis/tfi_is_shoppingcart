@@ -54,9 +54,9 @@
             data-link-action="delete-from-cart" data-id-product="{$product.id_product|escape:'javascript'}"
             data-id-product-attribute="{$product.id_product_attribute|escape:'javascript'}"
             data-id-customization="{$product.id_customization|escape:'javascript'}">
-            <span class="material-icons font-reset">
+            <!--<span class="material-icons font-reset">
                 delete
-            </span>
+            </span>-->
         </a>
     </div>
 
